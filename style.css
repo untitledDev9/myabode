@@ -10,6 +10,14 @@
     font-family: "Roboto", sans-serif;
   }
 
+  button {
+    background-color: #F26B34;
+    border-radius: 30px;
+    padding: 12px 45px;
+    border: none;
+    font-weight: 600;
+}
+
 
 /* navbar section */
 
@@ -43,14 +51,6 @@
     }
 }
 
-.nav-cta button {
-    background-color: #F26B34;
-    border-radius: 30px;
-    padding: 10px 45px;
-    border: none;
-    font-weight: 500;
-
-}
 
 .menu-icn {
 
@@ -69,8 +69,7 @@
     justify-content: flex-end;
     align-items: center;
     gap: 140px;
-    padding: 40px 0;
-    background-color: red;
+    padding: 40px 0 0 0;
 }
 
 .hero-text {
@@ -82,6 +81,7 @@
         font-size: 67px;
         line-height: 64px;
         font-weight: 400;
+        letter-spacing: 4px;
     }
     span {
         font-weight: 700;
@@ -99,14 +99,6 @@
     display: flex;
     align-items: center;
     gap: 18px;
-
-    button {
-        background-color: #F26B34;
-        border-radius: 30px;
-        padding: 12px 45px;
-        border: none;
-        font-weight: 600;
-    }
 
     img {
         width: 30px;
@@ -150,4 +142,65 @@
     .menu-icn {
         display: block;
     }
+
+    /* hero section */
+
+    .hero {
+        justify-content: flex-start;
+        gap: 40px;
+        padding: 40px 0 0 20px;
+        flex-direction: column;
+    }
+
+    
+.hero-text {
+    gap: 30px;
+    width: 100%;
+
+    h1 {
+        font-size: 50px;
+        line-height: 64px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        width: 80%;
+    }
+    span {
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 18px;
+        width: 70%;
+        line-height: 24px;
+
+    }
+}
+
+.hero-cta {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    button {
+        background-color: #F26B34;
+        border-radius: 30px;
+        padding: 12px 45px;
+        border: none;
+        font-weight: 600;
+    }
+
+    img {
+        width: 30px;
+    }
+}
+
+.hero-image {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    img {
+        width: 25rem;
+    }
+}
 }
