@@ -260,4 +260,32 @@
         width: 25rem;
     }
 }
+
+/* Owner section */
+
+.owner {
+    padding:80px 30px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: none;
+    gap: 40px;
+}
+
+.owner-image {
+
+    img {
+        width: 450px;
+    }
+}
+
+.owner-text {
+    width: 100%;
+}
+
+.line {
+
+    h3 {
+        font-weight: 400;
+    }
+}
 }
