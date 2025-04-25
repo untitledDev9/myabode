@@ -16,6 +16,7 @@
     padding: 12px 45px;
     border: none;
     font-weight: 600;
+    width: fit-content;
 }
 
 
@@ -116,7 +117,63 @@
 
 .owner {
     background-color: #0693A5;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
 }
+
+.owner-image {
+
+    img {
+        width: 580px;
+    }
+}
+
+.owner-text {
+    display: grid;
+    gap: 20px;
+    color: #fff;
+    width: 40%;
+
+    h1 {
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 45px;
+        width: 80%;
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 23px;
+        /* width: 100%; */
+    }
+
+    
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    div {
+        width: 90px;
+        height: 1.5px;
+        background-color: #fff;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
 
 
 
