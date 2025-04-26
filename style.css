@@ -246,6 +246,8 @@
     }
 }
 
+/* house section */
+
 
 
 
@@ -416,10 +418,13 @@
 
 
 .choice-image {
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     img {
-        width: 25rem;
+        width: 30rem;
     }
 }
 
