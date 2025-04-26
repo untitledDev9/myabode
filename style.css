@@ -305,6 +305,39 @@
     }
 }
 
+/* community section */
+
+.comm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #76fdff;
+}
+
+.comm-image {
+    width: 40%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.comm-text {
+    display: grid;
+    gap: 30px;
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 500;
+        width: 70%;
+    }
+}
 
 
 
@@ -562,6 +595,42 @@
 
     button{
         display: none;
+    }
+}
+
+/* community section */
+
+.comm {
+    padding: 40px 20px;
+    flex-direction: column;
+}
+
+.comm-image {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.comm-text {
+    text-align: center;
+    display: grid;
+    gap: 20px;
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    button {
+        margin: 0 auto;
     }
 }
 
