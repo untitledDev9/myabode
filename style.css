@@ -248,6 +248,63 @@
 
 /* house section */
 
+.house {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    position: relative;
+}
+
+.house-image {
+    width: 57%;
+
+
+    img {
+        width: 100%;
+    }
+}
+
+.house-card {
+    width: 640px;
+    height: 480px;
+    box-shadow: 5px 1px 15px rgb(161, 161, 161);
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    z-index: 200;
+    background-color: #fff;
+    right: 17rem;
+
+
+    h1 {
+        color: #0693A5;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 55px;
+        width: 80%;
+    }
+
+    li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    span {
+        color: #F26B34;
+        font-weight: 700;
+    }
+
+    ul {
+        display: grid;
+        gap: 15px;
+    }
+}
+
 
 
 
@@ -275,6 +332,44 @@
     width: 95%;
     padding: 4rem 5rem;
 }
+
+/* house section */
+
+.house {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.house-image {
+    width: 57%;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+}
+
+.house-card {
+    width: 540px;
+    height: 380px;
+    gap: 25px;
+    right: 13rem;
+
+
+    h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    li {
+        line-height: 20px;
+    }
+}
+
+
 
 
 
@@ -427,5 +522,48 @@
         width: 30rem;
     }
 }
+
+/* house section */
+
+.house {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    position: relative;
+}
+
+.house-image {
+    width: 97%;
+
+
+    img {
+        width: 100%;
+    }
+}
+
+.house-card {
+    width: 420px;
+    height: 380px;
+    gap: 20px;
+    right: 7%;
+    top: 70%;
+
+
+    h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    li {
+        line-height: 20px;
+    }
+
+    button{
+        display: none;
+    }
+}
+
 
 }
