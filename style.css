@@ -204,6 +204,46 @@
 
 .choice {
     display: flex;
+    background-color: #00626E;
+    width: 85%;
+    padding: 4rem 8rem 2rem 8rem;
+    gap: 40px;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.choice-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+    h1 {
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 46px;
+    }
+
+    ol {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    li {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 500;
+    }
+}
+
+.choice-image {
+
+    img {
+        width: 30rem;
+    }
 }
 
 
@@ -225,6 +265,15 @@
             width: 50rem;
         }
     }
+
+        /* choice section */
+
+.choice {
+    /* flex-direction: column-reverse; */
+    width: 95%;
+    padding: 4rem 5rem;
+}
+
 
 
 }
@@ -356,4 +405,22 @@
             width: 100%;
         }
     }
+
+    /* choice section */
+
+.choice {
+    flex-direction: column-reverse;
+    width: 95%;
+    padding: 4rem 2rem;
+}
+
+
+.choice-image {
+    margin: 0 auto;
+
+    img {
+        width: 25rem;
+    }
+}
+
 }
